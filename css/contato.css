@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    height: 640px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens-cabecalho {
+    width: 360px;
+    height: 64px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    isolation: isolate;
+    background-color: #444242;
+}
+
+.itens-cabecalho .icone-voltar {
+    width: 20px;
+    height: 16px;
+    margin-left: 15px;
+}
+
+.informacao-logo .logo {
+    position: absolute;
+
+    margin-left: 65px;
+}
+
+.informacao-logo .logo .externo {
+    width: 29.14px;
+    height: 30.65px;
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.informacao-logo .logo .interno {
+    width: 22.68px;
+    height: 29.3px;
+    
+    margin-left: 4.5px;
+    margin-top: 2.64px;
+}
+
+.informacao-logo .logo .inferior {
+    width: 8.75px;
+    height: 6.02px;
+
+    position: absolute;
+    left: 46%;
+    margin-top: 31px;
+}
+
+.informacao-logo .titles {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   margin-top: 3px;
+}
+
+.informacao-logo .titles h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #FFFFFF;
+    
+    letter-spacing: 2px;
+    margin-left: 49px;
+    transform: scale(1,2);
+}
+
+.informacao-logo .titles h2 {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+
+    margin-left: 97px;
+    margin-top: 4px;
+
+    white-space: nowrap;
+}
+
+.informacao-logo .titles span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 52px;
+    color: #FA9401;
+    font-size: 18px;
+}
+
+.carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.carrinho .carrinho-vazio {
+    width: 20px;
+    height: 19px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.carrinho .qtd-item {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 18px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu img {
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.conteudo-principal .title h2 {
+    width: 360px;
+    height: 50px;
+    
+    padding-top: 15.5px;
+    padding-left: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FA9401;
+
+    background: #F2F2F2;
+}
+
+.conteudo-principal section {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-principal section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B5A5A;
+}
+
+.conteudo-principal .endereco {
+    margin: 15px 14px 0 15px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.conteudo-principal .contato {
+    margin: 15px 14px 0 15px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.conteudo-principal .site {
+    margin: 15px 14px 0 15px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.conteudo-principal .contato-email {
+    margin: 15px 14px 0 15px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.endereco img {
+    margin-right: 19.5px;
+    margin-left: 17.5px;
+}
+
+.contato img {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.site img {
+    margin-right: 15px;
+    margin-left: 16px;
+}
+
+.contato-email img {
+    margin-right: 16px;
+    margin-left: 15px;
+}
+
+.informacoes .redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    margin: 46px 29px 177px 0;
+}
+
+.informacoes .redes-sociais img {
+    width: 34px;
+    height: 34px;
+
+    border-radius: 50%;
+    margin-left: 31px;
+}
+
+footer {
+    width: 360px;
+    height: 50px;
+
+    background-color: #FA9401;
+
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #FFFFFF;
+}

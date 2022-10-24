@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #444242;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 155px;
+}
+
+.menu button {
+    position: absolute;
+    width: 121.33px;
+    height: 34px;
+    left: 15px;
+    top: 15px;
+    padding-right: 52px;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    border-radius: 50px;
+    border: none;
+    color: #444242;
+}
+
+.menu img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+
+    margin-left: 10px;    
+    margin-top: -5px;
+}
+
+.menu .seta {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+
+    left: 71%;
+    top: 60%; 
+}
+
+
+.icones .superior {
+    position: absolute;
+    top: 22px;
+    right: 16px;
+}
+
+.icones .central {
+    position: absolute;
+    top: 30px;
+    right: 16px;
+}
+
+.icones .inferior {
+    position: absolute;
+    top: 38px;
+    right: 16px;
+}
+
+.informacoes-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes-logo .logo {
+    position: relative;
+    margin-bottom: 40%;
+    margin-right: 20%;
+}
+
+.logo .externo {
+    position: absolute;
+
+    width: 57.44px;
+    height: 60.47px;
+
+    z-index: 1;
+}
+
+.logo .interno {
+    position: absolute;
+
+    width: 44.71px;
+    height: 57.81px;
+
+    margin-top: 5px;
+    margin-left: 8.81px;
+}
+
+.logo .inferior {
+    position: absolute;
+
+    width: 17.26px;
+    height: 11.88px;
+
+    margin-top: 62.97px;
+    margin-left: 24.75px;
+}
+
+.informacoes-logo .titulo h1 {
+    margin-left: 9.69px;
+    margin-top: 20%;
+    
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+
+    transform: scale(1,2);
+}
+
+.informacoes-logo .titulo h2 {
+   margin-bottom: 53.56px;
+   margin-left: 12px;
+   margin-top: 6px;
+
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 16.5px;
+
+   white-space: nowrap;
+}
+
+.informacoes-logo span {
+    color: #FA9401;
+    font-weight: 600;
+    line-height: 40px;
+    margin-left: 3px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes li {
+    margin-bottom: 15px;
+}
+
+.informacoes button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 265px;
+    height: 50px;
+    
+    border: 1px solid #FA9401;
+    border-radius: 50px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+    background-color: transparent;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.informacoes .pesquisa {
+    background-color: #FA9401;
+}
+
+.informacoes .pesquisa img, .informacoes .lancamento img {
+    width: 20px;
+    height: 19px;
+
+    margin-right: 11px;
+}
+
+.informacoes .carrinho img {
+    margin-right: 8px;
+}
+
+.informacoes .contato img {
+    margin-right: 10px;
+}
+
+.contato a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    margin-top: 152px;
+    margin-bottom: 17px;
+}
+
+.redes-sociais a {
+    width: 30px;
+    height: 30px;    
+}
+
+.redes-sociais .globo {
+    position: absolute;
+    padding: 4px;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+.redes-sociais .img-1 {
+    position: absolute;
+    padding: 4px;
+    z-index: 2;
+    margin-top: -4px;
+}
+
+.redes-sociais .img-2 {
+    position: absolute;
+    padding: 4px;
+    z-index: 3;
+    margin-top: 4px;
+}
+
+.redes-sociais .img-3 {
+    position: absolute;
+    padding: 4px;
+    z-index: 4;
+    margin-left: -3px;
+}
+
+.redes-sociais .img-4 {
+    position: absolute;
+    padding: 4px;
+    z-index: 5;
+    margin-left: 3px;
+}
+
+.redes-sociais img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+}
+
+.redes-sociais .site {
+    margin-bottom: 34px;
+    margin-right: 88px;
+    margin-top: 35px;
+}
+
+.redes-sociais .facebook {
+    padding: 4px;
+    margin-left: -55px;
+    background-color: #FFFFFF;
+}
+
+.redes-sociais .instagram {
+    padding: 4px;
+    margin-left: -28px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        height: 568px;
+        background-color: #FFB64E;
+    }
+
+    .conteudo-principal {
+        top: 99px;
+    }
+
+    .informacoes button {
+        background-color: #444242;
+        border: 2px solid #FFFFFF;
+    }
+
+    .informacoes .pesquisa {
+        border: 2px solid #444242;
+    }
+
+    .redes-sociais {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        height: 640px;
+    }
+
+    .conteudo-principal {
+        margin-top: -66px;
+    }
+
+    .informacoes {
+        margin-bottom: 53.56px;
+    }
+
+    .informacoes ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes-sociais {
+        display: block;
+    }
+  
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        height: 360px;
+    }
+
+    .informacoes ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoes-logo .logo {
+        right: 42px;
+        bottom: 50.15px;
+    }
+
+    .informacoes-logo .titulo {
+        position: relative;
+        left: 12px;
+        bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    body {
+        height: 360px; 
+    }    
+    
+    .informacoes-logo .logo {
+        margin-bottom: 18%;
+        margin-left: 9.69px;
+    }
+
+    .informacoes-logo .titulo  h1 {
+        margin-left: -45px;
+        margin-top: 43px;
+    }
+
+    .informacoes-logo .titulo h2 {
+        margin-left: -43px;
+        margin-top: 4px;
+    }
+
+    .informacoes ul {
+        column-count: 2;
+        margin-bottom: 60px;
+    }
+
+    .redes-sociais {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 1024px;
+    }
+
+    .conteudo-principal {
+        position: absolute;
+        top: 327px;
+    }
+
+    .redes-sociais {
+        top: 280px;
+        bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        height: 768px;
+    }
+
+    .conteudo-principal {
+        top: 204.76px;
+    }
+}
